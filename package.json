@@ -3,7 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
+  "homepage": "https://Maksym-Maleiev.github.io/goit-js-hw-08",
   "scripts": {
+    "start": "parcel src/index.html",
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
@@ -17,16 +20,22 @@
   "bugs": {
     "url": "https://github.com/Maksym-Maleiev/goit-js-hw-08/issues"
   },
-  "homepage": "https://github.com/Maksym-Maleiev/goit-js-hw-08#readme",
   "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-plugin-nuke-dist": "^1.0.1",
     "posthtml-include": "^1.6.2",
-    "sass": "^1.32.8"
+    "sass": "^1.32.8",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
   },
   "dependencies": {
     "@vimeo/player": "^2.16.2",
+    "babel": "^6.23.0",
     "lodash.throttle": "^4.1.1",
     "simplelightbox": "^2.10.1"
   }
